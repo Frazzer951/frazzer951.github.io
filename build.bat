@@ -1,8 +1,8 @@
 echo off
 
-:: echo[
-:: echo Checking for github-pages update
-:: call bundle update github-pages
+echo[
+echo Bundle
+call bundle
 
 echo[
 echo Updateing Gems
