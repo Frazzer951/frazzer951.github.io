@@ -35,6 +35,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Build 🏗
+        run: bundle install
         run: bundle exec jekyll build --trace
 
       - name: Deploy to GH Pages 🚀
