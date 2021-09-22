@@ -4,3 +4,9 @@
 
 layout: home
 ---
+# Welcome to Frazzer's Amazing Website
+
+![Frostie Praise](images/frostie.png)
+![Plasmaspaz Praise](images/plasmaspaz.png)
+![PurpleNurp Praise](images/purple.png)
+![Hash Praise](images/hash.png)
