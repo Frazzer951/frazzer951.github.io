@@ -5,6 +5,10 @@ echo Checking for github-pages update
 call bundle update github-pages
 
 echo[
+echo Updateing Gems
+call bundle update
+
+echo[
 echo Installing Gems
 call bundle install
 
