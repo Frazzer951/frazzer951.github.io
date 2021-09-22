@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@v2
         with:
-          token: ${{ secrets._TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
