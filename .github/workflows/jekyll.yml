@@ -21,9 +21,18 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
 
+      - name: Get cached gems 💎
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: head
           bundler-cache: true
 
       - name: Build 🏗
