@@ -22,23 +22,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Ruby 💎
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3'
-
-      - name: Get cached gems 💎
-        uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          ruby-version: head
+          bundler-cache: true
 
       - name: Build 🏗
-        run: |
-          gem update bundler
-          bundle install
-          bundle exec jekyll build --trace
+        run: bundle exec jekyll build --trace
 
       - name: Deploy to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' }}
