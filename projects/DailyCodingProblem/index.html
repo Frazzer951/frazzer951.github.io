@@ -11,7 +11,7 @@
   Luke  Eltiste
 
 
-  | a post with code
+  | Daily Coding Problem
 
 </title>
 <meta name="description" content="A portfolio website for Luke Eltiste
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/2015/code/">
+<link rel="canonical" href="/projects/DailyCodingProblem/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -100,14 +100,6 @@
             </a>
           </li>
           
-          <!-- Blog -->
-          <li class="nav-item active">
-            <a class="nav-link" href="/blog/">
-              blog
-              
-            </a>
-          </li>
-          
           <!-- Other pages -->
           
           
@@ -121,16 +113,16 @@
           
           
           
-          
-          
-          
-          
           <li class="nav-item ">
-              <a class="nav-link" href="/projects/">
-                projects
+              <a class="nav-link" href="/Projects/">
+                Projects
                 
               </a>
           </li>
+          
+          
+          
+          
           
           
           
@@ -155,66 +147,26 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      
-
-<div class="post">
+      <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with code</h1>
-    <p class="post-meta">July 15, 2015</p>
+    <h1 class="post-title">Daily Coding Problem</h1>
+    <p class="post-description">A collection of short coding challenges.</p>
   </header>
 
-  <article class="post-content">
-    <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
-It supports more than 100 languages.
-This example is in C++.
-All you have to do is wrap your code in a liquid tag:</p>
+  <article>
+    <p><a href="https://github.com/Frazzer951/DailyCodingProblem">Github Link</a></p>
 
-<p>{% highlight c++ linenos %}  <br /> code code code <br /> {% endhighlight %}</p>
-
-<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
-Produces something like this:</p>
-
-<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td><td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
-
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
-
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></pre></figure>
-
+<h1 id="installation--build">Installation &amp; Build</h1>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git clone https://github.com/Frazzer951/DailyCodingProblem.git
+    <span class="nb">cd </span>DailyCodingProblem
+    <span class="nb">mkdir </span>build
+    <span class="nb">cd </span>build
+    cmake ..
+    cmake <span class="nt">--build</span> <span class="nb">.</span>
+</code></pre></div></div>
 
   </article>
-
-  
 
 </div>
 
@@ -230,7 +182,7 @@ Produces something like this:</p>
 
     
     
-    Last updated: September 23, 2021.
+    Last updated: October 06, 2021.
     
   </div>
 </footer>
