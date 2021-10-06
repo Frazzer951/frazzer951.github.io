@@ -17,6 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+[PDF](/assets/pdf/example_pdf.pdf)
+
 ![Frostie Praise](/assets/img/frostie.png)
 
 ![Plasmaspaz Praise](/assets/img/plasmaspaz.png)
