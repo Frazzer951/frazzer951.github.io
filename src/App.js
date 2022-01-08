@@ -9,7 +9,7 @@ import "./style.css";
 
 function App() {
   return (
-    <div className="App" id="home">
+    <div className="App">
       <Header />
 
       <Home />
