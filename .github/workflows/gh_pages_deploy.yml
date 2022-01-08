@@ -25,7 +25,9 @@ jobs:
         uses: mskelton/setup-yarn@v1
 
       - name: Build 🏗
-        run: yarn build
+        run: |
+          yarn build
+          cp CNAME build/
 
       - name: Deploy to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' }}
