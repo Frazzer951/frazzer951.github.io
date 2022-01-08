@@ -1,7 +1,34 @@
+import Header from "./Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import "./style.css";
+
 function App() {
   return (
     <div className="App">
-      <h1>Wassup Gamers</h1>
+      <Header />
+      <content>
+        <Home />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+        <About />
+        <br />
+      </content>
     </div>
   );
 }
