@@ -1,10 +1,10 @@
 import { Container, Paper, Typography } from "@mui/material";
 import "../style.css";
 
-function About() {
+function Projects() {
   return (
-    <Container className="About" maxWidth="xl">
-      <div className="anchor" id="about" />
+    <Container className="Projects" maxWidth="xl">
+      <div className="anchor" id="projects" />
       <Paper
         sx={{
           margin: "auto",
@@ -12,11 +12,11 @@ function About() {
         }}
       >
         <Typography variant="h1" component="div">
-          About Me
+          Projects
         </Typography>
       </Paper>
     </Container>
   );
 }
 
-export default About;
+export default Projects;

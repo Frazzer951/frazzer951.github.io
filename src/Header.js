@@ -4,6 +4,10 @@ import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
 const buttons = [
   { name: "Home", path: "#home" },
   { name: "About", path: "#about" },
+  { name: "Projects", path: "#projects" },
+  { name: "Work", path: "#work" },
+  { name: "Skills", path: "#skills" },
+  { name: "Contact", path: "#contact" },
 ];
 
 export default function Header() {
@@ -20,6 +24,7 @@ export default function Header() {
           <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
             LUKE ELTISTE
           </Typography>
+
           {buttons.map((button) => (
             <Button href={button.path}>{button.name}</Button>
           ))}

@@ -5,10 +5,12 @@ import "../style.css";
 
 function Home() {
   return (
-    <Container className="Home" id="home" maxWidth="xl">
+    <Container className="Home" maxWidth="xl">
+      <div className="anchor" id="home" />
       <Paper
         sx={{
-          margin: "10px auto",
+          margin: "auto",
+          marginTop: "80px",
           padding: "5px 10px",
         }}
       >
