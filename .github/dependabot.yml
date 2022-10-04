@@ -8,9 +8,7 @@ updates:
     allow:
       - dependency-type: "direct"
     commit-message:
-      prefix: "chore:"
-    assignees:
-      - "frazzer951"
+      prefix: "dep:"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -19,6 +17,4 @@ updates:
     allow:
       - dependency-type: "direct"
     commit-message:
-      prefix: "chore:"
-    assignees:
-      - "frazzer951"
+      prefix: "dep:"
