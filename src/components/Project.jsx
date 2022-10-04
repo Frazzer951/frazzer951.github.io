@@ -2,7 +2,7 @@ import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@
 
 import "../App.css";
 
-function Project(props) {
+export default function Project(props) {
   const { title, description, image, url } = props;
 
   return (
@@ -26,5 +26,3 @@ function Project(props) {
     </Card>
   );
 }
-
-export default Project;

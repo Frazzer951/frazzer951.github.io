@@ -6,7 +6,7 @@ import website from "../resources/images/website.png";
 
 import "../App.css";
 
-function Projects() {
+export default function Projects() {
   return (
     <Container className="Projects" maxWidth="xl">
       <div className="anchor" id="projects" />
@@ -55,5 +55,3 @@ function Projects() {
     </Container>
   );
 }
-
-export default Projects;

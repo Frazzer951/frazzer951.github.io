@@ -4,7 +4,7 @@ import me from "../resources/images/me.jpg";
 
 import "../App.css";
 
-function About() {
+export default function About() {
   return (
     <Container className="About" maxWidth="xl">
       <div className="anchor" id="about" />
@@ -35,5 +35,3 @@ function About() {
     </Container>
   );
 }
-
-export default About;

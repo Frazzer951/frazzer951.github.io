@@ -2,7 +2,7 @@ import { Container, Paper, Typography } from "@mui/material";
 
 import "../App.css";
 
-function Skills() {
+export default function Skills() {
   return (
     <Container className="Skills" maxWidth="xl">
       <div className="anchor" id="skills" />
@@ -19,5 +19,3 @@ function Skills() {
     </Container>
   );
 }
-
-export default Skills;

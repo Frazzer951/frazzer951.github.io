@@ -2,7 +2,7 @@ import { Container, Paper, Typography } from "@mui/material";
 
 import "../App.css";
 
-function Work() {
+export default function Work() {
   return (
     <Container className="Work" maxWidth="xl">
       <div className="anchor" id="work" />
@@ -19,5 +19,3 @@ function Work() {
     </Container>
   );
 }
-
-export default Work;

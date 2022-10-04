@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 import "../App.css";
 
-function Home() {
+export default function Home() {
   return (
     <Container className="Home" maxWidth="xl">
       <div className="anchor" id="home" />
@@ -46,5 +46,3 @@ function Home() {
     </Container>
   );
 }
-
-export default Home;

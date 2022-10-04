@@ -2,7 +2,7 @@ import { Container, Paper, Typography } from "@mui/material";
 
 import "../App.css";
 
-function Contact() {
+export default function Contact() {
   return (
     <Container className="Contact" maxWidth="xl">
       <div className="anchor" id="contact" />
@@ -19,5 +19,3 @@ function Contact() {
     </Container>
   );
 }
-
-export default Contact;
