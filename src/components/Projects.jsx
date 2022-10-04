@@ -18,12 +18,7 @@ function Projects() {
         <Typography variant="h3" component="div" align="center">
           Projects
         </Typography>
-        <Grid
-          container
-          direction="row"
-          justifyContent="space-evenly"
-          alignItems="center"
-        >
+        <Grid container direction="row" justifyContent="space-evenly" alignItems="center">
           <Grid>
             <Project
               title="Frazzer.net"

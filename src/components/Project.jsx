@@ -1,11 +1,4 @@
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
 import "../style.css";
 
 function Project(props) {
@@ -13,15 +6,7 @@ function Project(props) {
 
   return (
     <Card sx={{ maxWidth: 345, padding: "5px" }} raised>
-      {image && (
-        <CardMedia
-          component="img"
-          height={140}
-          image={image}
-          alt={title}
-          sx={{ borderRadius: "5px" }}
-        />
-      )}
+      {image && <CardMedia component="img" height={140} image={image} alt={title} sx={{ borderRadius: "5px" }} />}
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {title}
