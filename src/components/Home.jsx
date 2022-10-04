@@ -1,7 +1,9 @@
 import { Container, Button, Paper, Typography, Stack } from "@mui/material";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import "../style.css";
+
+import "../App.css";
 
 function Home() {
   return (

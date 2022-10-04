@@ -1,9 +1,10 @@
 import { Container, Grid, Paper, Typography } from "@mui/material";
-import "../style.css";
-import Project from "./Project";
 
-import website from "../resources/images/website.png";
 import aoc from "../resources/images/aoc.jpg";
+import Project from "./Project";
+import website from "../resources/images/website.png";
+
+import "../App.css";
 
 function Projects() {
   return (

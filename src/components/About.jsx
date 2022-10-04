@@ -1,6 +1,8 @@
 import { Box, Container, Stack, Paper, Typography } from "@mui/material";
-import "../style.css";
+
 import me from "../resources/images/me.jpg";
+
+import "../App.css";
 
 function About() {
   return (

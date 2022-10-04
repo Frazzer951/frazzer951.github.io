@@ -1,5 +1,6 @@
 import { Container, Paper, Typography } from "@mui/material";
-import "../style.css";
+
+import "../App.css";
 
 function Work() {
   return (

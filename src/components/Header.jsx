@@ -1,5 +1,6 @@
-import React from "react";
 import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
+
+import React from "react";
 
 const buttons = [
   { name: "Home", path: "#home" },

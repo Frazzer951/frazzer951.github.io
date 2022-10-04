@@ -1,5 +1,6 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
-import "../style.css";
+
+import "../App.css";
 
 function Project(props) {
   const { title, description, image, url } = props;
